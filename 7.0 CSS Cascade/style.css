@@ -1,5 +1,9 @@
 /* Don't change the existing CSS. */
 
+#outer-box {
+  background-color: #800080;
+}
+
 .box {
   background-color: blue;
   padding: 10px;
@@ -11,14 +15,10 @@ p {
   padding: 0;
 }
 
-#outer-box {
-  border: 10px solid #800080;
-
+.inner-box {
+  background-color: red;
 }
 
 .white-text {
-  background-color: red;
   color: white;
-  padding: 10px;
-  margin: -10px;
 }
